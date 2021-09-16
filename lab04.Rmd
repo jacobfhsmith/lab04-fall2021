@@ -1,0 +1,77 @@
+---
+title: "Lab 04"
+subtitle: "due September 21 at 11:59 PM "
+author: ""
+editor_options: 
+  chunk_output_type: console
+output:
+  pdf_document: default
+---
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(sf)
+``` 
+
+```{r load-data, message = FALSE}
+nc <- st_read("~/nc_dists.shp", quiet = TRUE)
+nc_new <- read_csv("~/nc_newdata.csv")
+```
+
+# Exercise 1
+
+Please write your contract here.
+
+# Exercise 2
+```{r ex-2}
+
+```
+
+Use the proper join to create the `nc_data` dataset and please remember to name your chunk.
+
+# Exercise 3
+
+```{r nc-plot-1, eval = FALSE}
+ggplot(nc_data) +
+  geom_sf(aes(fill = ______)) + 
+  # adjust the color here and remember to give your plot a midpoint
+  # please remember to give your plot a title and to label the legend
+  # you may also want to give your plot a theme here
+```
+
+# Exercise 4
+
+```{r ex-4}
+
+```
+
+# Exercise 5
+
+```{r nc-plot-2, eval = FALSE}
+ggplot(nc_data) +
+  geom_sf(aes(fill = ______)) + 
+  # adjust the color here and remember to give your plot a midpoint
+  # please remember to give your plot a title and to label the legend
+  # you may also want to give your plot a theme here
+```
+
+# Exercise 6
+
+```{r nc-plot-3, eval = FALSE}
+ggplot(nc_data) +
+  geom_sf(aes(fill = ______)) + 
+  # adjust the color here and remember to give your plot a midpoint
+  # please remember to give your plot a title and to label the legend
+  # you may also want to give your plot a theme here
+```
+
+# Exercise 7
+
+```{r nc-plot-4, eval = FALSE}
+ggplot(nc_data) +
+  geom_sf(aes(fill = ______)) + 
+  # adjust the color here
+  # please remember to give your plot a title and to label the legend
+  # you may also want to give your plot a theme here
+```
+
